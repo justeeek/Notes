@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация на сайте</title>
+    <link rel="stylesheet" href="notes.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="outload.js"></script>
+    <script type="text/javascript" src="getNotes.js"></script>
+    <script type="text/javascript" src="getOpis.js"></script>
+    <script type="text/javascript" src="deleteNote.js"></script>
+    <script type="text/javascript" src="update.js"></script>
+    <script type="text/javascript" src="closed.js"></script>
+    <script type="text/javascript" src="saveNewOpis.js"></script>
+
+</head>
+<body>     
+<div class="header">
+    <div class="menu">
+        <button id="outload">Выход</button>
+    </div>
+</div>
+
+<div id ="container">
+ <div class="foter">
+     <div class="gamelist">
+        <div class="games">
+            <center><h1>Мои Заметки</h1></center>
+            <div class = "btn_create">
+                <button class = "create" onclick="window.location.href='create.html'">Создать заметку</button>
+            </div>
+            <div class = "table"></div>
+        </div> 
+     </div>
+    </div>
+    <div class="log">
+        <center><h1>Описание</h1></center>
+            <div class="opis"></div>
+            <div class = "blockred">
+            <div class = "opisan">
+            <form action="">
+                <input id="opisanie" type="text" value="">    
+            </form>
+            </div>
+        
+        <div class = "savess">
+        <button  id="saves" onclick="window.location.href='notes.html'">Сохранить</button>
+        </div> 
+    </div>
+            
+        
+    </div>  
+    
+
+</div>
+
+<div class = "knopki">
+    <div class = "closeds">
+    <button class = "closed">Закрыть окно редактирования</button>
+    </div>
+    <div class = "updates">
+        <button class = "update">Редактировать</button>
+    </div>
+</div>
+
+<div id = "structure">
+
+    <div class = "list">
+        <div class = "names">
+        <button class = "name"></button>
+        </div>
+        <div class = "deletes">
+        <button class = "delete">удалить</button>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+body{
+    font-family: 'Times New Roman';
+    margin: 0;
+    background-image: url("images/fon.jpg");
+    background-size:cover;
+    
+ }
+ .header{
+     width: 100;
+     height: 80px;
+     background-color: orange;
+     background-repeat: no-repeat;
+ }
+ .header button{
+     margin: 15px;
+     cursor: pointer;
+     height: 45px;
+     color: blueviolet;
+     background: #161512;
+     border: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     box-shadow: 7px 7px 11px rgb(103, 6, 120, 0.82);
+ }
+ 
+ .header #outload{
+     float: right;
+     cursor: pointer;
+     height: 45px;
+     color: rgb(245, 0, 0);
+     background: #161512;
+     border: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     box-shadow: 5px 5px 8px rgb(245, 0, 0, 0.82);
+ }
+
+ #container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:stretch;
+ }
+
+ 
+ 
+ .foter .games{
+     background-color: orange;
+     width: 450px;
+     height: auto;
+     box-shadow: 5px 5px 10px black;
+ }
+
+ .log{
+    background-color: orange;
+    width: 700px;
+    height: 700px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+button{
+     cursor: pointer;
+     height: 30px;
+     color: white;
+     background: black;
+     border: none;
+     text-transform: uppercase;
+     font-size: 10px;
+     box-shadow: 7px 7px 11px orangered;
+ }
+ .foter .gamelist .game{
+     text-align: center;
+     color: rgb(51, 179, 51);
+     border: 1px solid blueviolet;
+     margin: 5px 0px 0px 5px;
+ }
+ 
+ a{
+     color: blueviolet;
+     text-decoration: none;
+ }
+ a:hover{
+     transform: scale(1.1);
+ }
+ h1{
+     margin: 0px auto;
+     text-transform: uppercase;
+     padding-bottom: 5px;
+     color: black;
+     text-shadow: 1px 1px 1px black;
+ }
+ 
+
+
+ 
+ input{
+     margin-top: 10px;
+     height: 40px;
+     width: 400px;
+     border-radius: 20px 20px;
+     border: none;
+     padding-left: 15px;
+     font-size: 18px;
+     box-shadow: 7px 7px 11px rgb(103, 6, 120, 0.82);
+ }
+
+ 
+ button:hover{
+     opacity: .80;
+     font-weight: bold;
+ }
+ 
+ .log button{
+     cursor: pointer;
+     padding: 10px 30px;
+     height: 20px;
+     color: white;
+     background: #161512;
+     border: none;
+     text-transform: uppercase;
+     font-size: 8px;
+     box-shadow: 7px 7px 11px rgb(103, 6, 120, 0.82);
+ }
+
+.list{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foter .gamelist .name{
+    width: 200px;
+    color: black;
+    background: orange;
+    font-size: 20px;
+    box-shadow: none;
+    margin-left: 0px;
+    text-transform: none;
+
+}
+
+.foter .gamelist .delete{
+    font-size: 14px;
+    color: black;
+    background: orange;
+    box-shadow: none;
+    text-transform: none;
+}
+.log .opis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px;
+ }
+
+ .btn_create{
+    display: flex;
+    justify-content: center;
+ }
+ #structure {
+    display: none;
+}
+
+
+
+
+.blockred{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.savess{
+    justify-content: flex-end;
+    margin-left: 275px;
+}
+.log #saves{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 30px;
+    color: white;
+    background: #161512;
+    border: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: 7px 7px 11px rgb(103 6 120 / 82%);
+}
+
+
+
+.knopki{
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.update{
+    margin-right: 180px;
+    cursor: pointer;
+     padding: 10px 30px;
+     height: 50px;
+     color: white;
+     background: #161512;
+     border: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     box-shadow: 7px 7px 11px rgb(103, 6, 120, 0.82);
+}
+.closed{
+    margin-right: 215px;
+    cursor: pointer;
+     padding: 10px 30px;
+     height: 50px;
+     color: white;
+     background: #161512;
+     border: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     box-shadow: 7px 7px 11px rgb(103, 6, 120, 0.82);
+}
